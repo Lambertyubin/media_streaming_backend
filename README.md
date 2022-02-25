@@ -8,19 +8,17 @@ My goal was to build a streaming platform for video contents centered around com
 
 ### Backend
 
-- Express.js middleware: [link]
-- API entry routes: [link to routes]
-- Example of Database model with Mongoose:
-- Application logic to retrieve data from the MongoDB database: [link]
+- Express.js middleware: [Click here](https://github.com/Lambertyubin/media_streaming_backend/blob/main/express.js#L32)
+- API entry routes: [Click here to view media routes](https://github.com/Lambertyubin/media_streaming_backend/blob/main/routes/media.routes.js#L8)
+- Example of Database model with Mongoose: [Media Schema](https://github.com/Lambertyubin/media_streaming_backend/blob/main/models/media.model.js#L3)
+- Application logic to retrive video from database and create stream from the MongoDB database: [Streaming logic](https://github.com/Lambertyubin/media_streaming_backend/blob/main/controllers/media.controller.js#L67)
 - I tested this API's CRUD operations using Postman
 
 ## Why I built the project this way
 
 ### Frontend
 
-- I used React as the major frontend library because its virtual DOM feature provides a smooth user experience whereby only necessary parts of each component are updated when state changes.
-- I didn't use a state management library like Redux on purpose. For this app simple `useState` hook is sufficient. In fact, for now there's no complex logic that needs to be shared among many different components.
-- Sass is a preprocessor for CSS that allows us to use the standard CSS syntax and allows us to structure our styles following component hierarchies.
+- [Link to Frontend](https://github.com/Lambertyubin/media_streaming_backend)
 
 ### Backend
 
